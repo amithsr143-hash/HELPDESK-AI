@@ -1,0 +1,15 @@
+{
+  "name": "helpdesk-ai-workspace",
+  "version": "1.0.0",
+  "description": "HELPDESK AI – Intelligent Customer Support & Experience Management Platform",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "start": "node server/src/server.js",
+    "build": "npm run build --prefix client",
+    "test": "npm run test --prefix server"
+  },
+  "keywords": ["helpdesk", "gemini-ai", "customer-support", "supabase", "react", "express"],
+  "author": "Antigravity Team",
+  "license": "ISC"
+}
